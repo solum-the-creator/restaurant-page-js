@@ -1,0 +1,219 @@
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-dark-blue: #274C5B;
+    --color-light-green: #7EB693;
+    --color-light-yellow: #EFD372;
+    --color-gray: #D4D4D4;
+    --color-light-gray: #F9F8F8;
+    --color-white-gray: #EFF6F1;
+    --color-dark-gray: #EFF6F1;
+
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3.9rem;
+    line-height: 4.55rem;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 2.22rem;
+    line-height: 2.6rem;
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 1.94rem;
+    line-height: 2.27rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+
+/* Header Style */
+
+header {
+    padding: 0px 206px;
+
+}
+
+header nav{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+nav .logo{
+    margin-right: auto;
+    width: 160px;
+    height: auto;
+
+}
+
+.logo img{
+    width: 100%;
+}
+
+nav .main-menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+    font-weight: 700;
+    font-family: 'Roboto';
+    font-size: .88rem;
+}
+
+nav .main-menu a{
+    text-decoration: none;
+    color: var(--color-dark-blue);
+}
+
+
+/* Banner style */
+
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 140px 206px;
+    background: -9% 190% / 20% no-repeat url(../src/images/backgrounds/vectors/1.png),
+                0% 0% / 10% no-repeat url(../src/images/backgrounds/vectors/2.png),
+                50% 10% / 8% no-repeat url(../src/images/backgrounds/vectors/3.png),
+                106% -14% / 18% no-repeat url(../src/images/backgrounds/vectors/4.png),
+                100% 100% / 8% no-repeat url(../src/images/backgrounds/vectors/5.png),
+                90% / 80% no-repeat url('../src/images/backgrounds/Image.jpg');
+    background-color: #F1EFF0;
+
+    margin-bottom: 100px;
+}
+
+.banner .left-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.left-content .title {
+    max-width: 420px;
+}
+
+.left-content .title p{
+    font-style: italic;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--color-light-green);
+    margin-bottom: 8px;
+}
+
+.left-content .title h2{
+    color: var(--color-dark-blue);
+}
+
+.button-explore button {
+    padding: 18px 32px;
+    border-radius: 12px;
+    border: none;
+    background-color: var(--color-light-yellow);
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-dark-blue);
+
+    transition: all .2s ease-in-out;
+}
+
+.button-explore button:hover{
+    background-color: #ffda55;
+    box-shadow: 2px 2px 12px 0px rgba(43, 36, 36, 0.141);
+}
+
+
+
+/* Other Banners block style */
+
+.other-banner {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    justify-content: center;
+
+    margin-bottom: 110px;
+
+}
+
+.other-banner>.small-banner{
+    width: 506px;
+    height: 272px;
+
+    border-radius: 24px;
+
+    background-color: #7EB693;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    padding: 0 42px;
+    gap: 4px;
+    
+}
+
+.other-banner>.small-banner h4{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+}
+
+.other-banner>.small-banner p{
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.other-banner>.small-banner.left-banner{
+    background: 80% / cover no-repeat url(../src/images/backgrounds/left-small-banner.jpg);
+    color: #ffffff;
+}
+
+.other-banner>.small-banner.right-banner{
+    background: left / 120% no-repeat url(../src/images/backgrounds/right-small-banner.jpg);
+    color: var(--color-dark-blue);
+}
+
+.other-banner>.small-banner.right-banner p{
+    color: var(--color-light-green);
+}
+
+/* About container style*/
