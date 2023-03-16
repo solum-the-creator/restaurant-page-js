@@ -105,12 +105,12 @@ nav .main-menu a{
     display: flex;
     align-items: center;
     padding: 140px 206px;
-    background: -9% 190% / 20% no-repeat url(../src/images/backgrounds/vectors/1.png),
-                0% 0% / 10% no-repeat url(../src/images/backgrounds/vectors/2.png),
-                50% 10% / 8% no-repeat url(../src/images/backgrounds/vectors/3.png),
-                106% -14% / 18% no-repeat url(../src/images/backgrounds/vectors/4.png),
-                100% 100% / 8% no-repeat url(../src/images/backgrounds/vectors/5.png),
-                90% / 80% no-repeat url('../src/images/backgrounds/Image.jpg');
+    background: -9% 190% / 20% no-repeat url('../assets/images/backgrounds/vectors/1.png'),
+                0% 0% / 10% no-repeat url('../assets/images/backgrounds/vectors/2.png'),
+                50% 10% / 8% no-repeat url('../assets/images/backgrounds/vectors/3.png'),
+                106% -14% / 18% no-repeat url('../assets/images/backgrounds/vectors/4.png'),
+                100% 100% / 8% no-repeat url('../assets/images/backgrounds/vectors/5.png'),
+                90% / 80% no-repeat url('../assets/images/backgrounds/Image.jpg');
     background-color: #F1EFF0;
 
     margin-bottom: 100px;
@@ -203,12 +203,12 @@ nav .main-menu a{
 }
 
 .other-banner>.small-banner.left-banner{
-    background: 80% / cover no-repeat url(../src/images/backgrounds/left-small-banner.jpg);
+    background: 80% / cover no-repeat url('../assets/images/backgrounds/left-small-banner.jpg');
     color: #ffffff;
 }
 
 .other-banner>.small-banner.right-banner{
-    background: left / 120% no-repeat url(../src/images/backgrounds/right-small-banner.jpg);
+    background: left / 120% no-repeat url('../assets/images/backgrounds/right-small-banner.jpg');
     color: var(--color-dark-blue);
 }
 
@@ -221,7 +221,7 @@ nav .main-menu a{
 
     padding: var(--horizontal-padding-main);
 
-    background: 10% 50% / 46% no-repeat url(../src/images/backgrounds/fruits.png);
+    background: 10% 50% / 46% no-repeat url('../assets/images/backgrounds/fruits.png');
     background-color: #F9F8F8;
     display: flex;
     justify-content: flex-end;
