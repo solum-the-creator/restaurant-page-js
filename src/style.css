@@ -509,3 +509,20 @@ nav .main-menu a{
     color: #ffffff;
     box-shadow: rgba(54, 54, 54, 0.2) 0px 5px 10px;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #D4D4D4;
+}
+.footer-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #525C60;
+    padding: 14px 0;
+    letter-spacing: 1px;
+}
+
+.footer-title span{
+    font-weight: 700;
+}
