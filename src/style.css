@@ -186,7 +186,7 @@ nav .main-menu a{
 
     padding: 0 42px;
     gap: 4px;
-    
+
 }
 
 .other-banner>.small-banner h4{
@@ -218,9 +218,9 @@ nav .main-menu a{
 
 /* About container style*/
 .about-container {
-    
+
     padding: var(--horizontal-padding-main);
-    
+
     background: 10% 50% / 46% no-repeat url(../src/images/backgrounds/fruits.png);
     background-color: #F9F8F8;
     display: flex;
@@ -228,6 +228,8 @@ nav .main-menu a{
     align-items: center;
     max-height: 100vh;
     height: 100vh;
+
+    margin-bottom: 100px;
 }
 
 .about-container .right-conent{
@@ -347,6 +349,162 @@ nav .main-menu a{
 
 
 .about-container .right-conent .blue-button:hover{
+    background-color: #27637b;
+    color: #ffffff;
+    box-shadow: rgba(54, 54, 54, 0.2) 0px 5px 10px;
+}
+
+
+/* Cards block style */
+
+.our-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-products .title-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.our-products .title-block .italic-title{
+    font-style: italic;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--color-light-green);
+}
+
+.our-products .title-block h3{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 46px;
+    color: var(--color-dark-blue);
+}
+
+
+.our-products .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 22px;
+}
+
+.cards .card{
+    background-color: #F9F8F8;
+    width: 266px;
+
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 18px 22px 12px 22px;
+    box-shadow: rgba(145, 145, 145, 0.2) 0px 2px 8px 2px;
+
+}
+
+.cards .card .image-card{
+    box-shadow: 44px 44px 38px 8px #F9F8F8 inset,
+                -44px -44px 30px 20px #F9F8F8 inset;
+
+    background-color: rgba(121, 121, 121, 0.36);
+    margin-bottom: auto;
+}
+
+.cards .card .image-card img{
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+.cards .card .category-title{
+    align-self: flex-start;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 4px 8px;
+    background-color: var(--color-dark-blue);
+    border-radius: 6px;
+    color: var(--color-white-gray);
+    margin-bottom: 10px;
+}
+
+.cards .card .card-title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    color: var(--color-dark-blue);
+
+    padding-bottom: 12px;
+
+    border-bottom: 1px solid #DEDDDD;
+}
+
+.cards .card .footer-card{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    margin-top: 4px;
+
+}
+
+.cards .card .footer-card .price{
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-dark-blue);
+    align-items: center;
+}
+
+.cards .card .footer-card .price>span{
+    color: #B8B8B8;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: line-through;
+    margin-right: 6px;
+}
+
+.cards .card .footer-card .stars{
+    justify-self: end;
+}
+
+.cards .card .footer-card .stars ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.cards .card .footer-card .stars ul .star{
+    width: 18px;
+}
+
+.cards .card .footer-card .stars ul .star svg{
+    fill: #FFA858;
+}
+
+.button-more{
+    margin: 42px 0 60px 0;
+}
+
+.button-more .blue-button{
+    padding: 18px 32px;
+    border-radius: 12px;
+    border: none;
+    background-color: var(--color-dark-blue);
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-white-gray);
+
+    transition: all .2s ease-in-out;
+    align-self: flex-start;
+}
+
+
+.button-more .blue-button:hover{
     background-color: #27637b;
     color: #ffffff;
     box-shadow: rgba(54, 54, 54, 0.2) 0px 5px 10px;
