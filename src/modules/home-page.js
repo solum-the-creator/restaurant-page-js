@@ -20,6 +20,7 @@ const headerHomePage = function () {
   mainMenu.classList.add('main-menu');
 
   logoLink.href = '#';
+  logoLink.dataset.pageName = 'home';
   logoImg.src = '../src/assets/images/Logo.svg';
   logoImg.alt = 'Organick Logo';
 
@@ -38,9 +39,13 @@ const headerHomePage = function () {
   menuLink.appendChild(menuLinkAnchor);
   aboutUsLink.appendChild(aboutUsLinkAnchor);
 
-  homeLinkAnchor.href = '#';
-  menuLinkAnchor.href = '#';
-  aboutUsLinkAnchor.href = '#';
+  homeLinkAnchor.href = '';
+  menuLinkAnchor.href = '';
+  aboutUsLinkAnchor.href = '';
+
+  homeLinkAnchor.dataset.pageName = 'home';
+  aboutUsLinkAnchor.dataset.pageName = 'about';
+  menuLinkAnchor.dataset.pageName = 'products';
 
   homeLinkAnchor.textContent = 'Home';
   menuLinkAnchor.textContent = 'Products';

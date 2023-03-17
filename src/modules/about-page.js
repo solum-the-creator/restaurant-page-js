@@ -73,7 +73,7 @@ export const aboutContainerHomePage = function () {
 
     const shopNowButton = document.createElement('button');
     shopNowButton.classList.add('blue-button');
-    shopNowButton.textContent = 'Shop Now';
+    shopNowButton.textContent = 'Explore';
 
     rightContent.appendChild(italicTitle);
     rightContent.appendChild(heading);
